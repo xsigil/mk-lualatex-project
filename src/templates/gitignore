@@ -1,0 +1,6 @@
+build/
+tags
+*.pdf
+!src/images/*.pdf
+db/seed/
+.DS_Store

@@ -1,0 +1,6 @@
+--langdef=texmacro
+--map-texmacro=.tex
+--kinddef-texmacro=m,macro,LaTeX Macros
+--regex-texmacro=/\\newcommand\*?\{?\\([a-zA-Z0-9]+)\}?/\1/m/
+--regex-texmacro=/\\def\\([a-zA-Z0-9]+)/\1/m/
+--regex-texmacro=/\\DeclareMathOperator\*?\{?\\([a-zA-Z0-9]+)\}?/\1/m/
